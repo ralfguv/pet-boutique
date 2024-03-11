@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --princ-bg-color:#3c184e;
+    --text-color:#fff;
+    --sombra-banner: #1f26875e;
+    --sombra-imagem: #0000005c;
+    --banner-transparent:#ffffffc4;
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+
+header {
+    background: url(../img/banner-topo.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    padding: 120px 80px;
+    color: var(--princ-bg-color);
+}
+
+header #logo {
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+header .logo {
+    max-width: 250px;
+    font-size: 14px;
+    text-align: center;
+}
+
+header img {
+    width: 30px;
+    margin: 0 5px 0 0 ;
+}
+
+header .banner {
+    max-width: 1024px;
+    margin: 70px auto;
+    background-color: var(--banner-transparent);
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 32px var(--sombra-banner);
+}
+
+header .banner h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+header .banner a {
+    background-color: var(--princ-bg-color);
+    color: var(--text-color);
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin: 15px 0 0 0 ;
+}
+
+header .banner a img {
+    width: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: var(--princ-bg-color);
+    font-size: 36px;
+    padding: 30px 0 30px 0;
+    margin: 0 0 45px 0;
+}
+
+em {
+    font-weight: 700;
+}
+
+.alinhamento {
+    width: 100%;
+    padding: 120px 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section article ul {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: var(--princ-bg-color);
+}
+
+
+section article li {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+
+
+
+figure {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.imgserv img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px var(--sombra-imagem);
+}
+
+.faixa {
+    background-color: var(--princ-bg-color);
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.faixa p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.faixa a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.faixa a img {
+    width: 50px;
+}
+
+.marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+.localizacao p {
+    font-size: 20px;
+    color: var(--princ-bg-color);
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.localizacao iframe {
+    width: 800px;
+    height: 450px;
+    border: 0;
+}
+
+footer {
+    width: 100%;
+    padding: 10px  0;
+    background-color: var(--princ-bg-color);
+}
+
+footer p {
+    color: var(--text-color);
+    font-size: 12px;
+    text-align: center;
+}
