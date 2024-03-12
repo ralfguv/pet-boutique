@@ -91,6 +91,10 @@ em {
     text-align: center;
 }
 
+.servicos li {
+    text-align: left;
+}
+
 section article ul {
     max-width: 800px;
     margin: 0 auto 50px auto;
